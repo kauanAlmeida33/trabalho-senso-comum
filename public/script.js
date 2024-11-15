@@ -765,29 +765,4 @@ sendMessageButton.addEventListener("click", sendMessage);
 chatInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") sendMessage();
 });
-// Tornar o chatbox arrastável
-const chatBox = document.getElementById("chat-box");
-const chatTitle = document.getElementById("chat-title");
-
-let isDragging = false;
-let offsetX, offsetY;
-
-chatTitle.addEventListener("mousedown", (e) => {
-  isDragging = true;
-  offsetX = e.clientX - chatBox.offsetLeft;
-  offsetY = e.clientY - chatBox.offsetTop;
-
-  // Evita a seleção de texto durante o arraste
-  e.preventDefault();
-});
-
-document.addEventListener("mousemove", (e) => {
-  if (isDragging) {
-    chatBox.style.left = `${e.clientX - offsetX}px`;
-    chatBox.style.top = `${e.clientY - offsetY}px`;
-  }
-});
-
-document.addEventListener("mouseup", () => {
-  isDragging = false;
-});   
+   
