@@ -72,7 +72,8 @@ const services = [
             description: "Carlos é um profissional com vasta experiência em reparos elétricos, incluindo a troca de disjuntores, fiação e instalações elétricas de baixo e médio porte. Com mais de 10 anos de experiência na área, ele garante serviços rápidos e eficientes, com foco na segurança e no respeito aos padrões regulatórios. R$120 por hora.",
             price: "120.00",
             rating: 4.2,
-
+            reviews: ["Atendimento excelente.", "Resolveu meu problema."]
+          },
           {
             name: "Ana",
             description: "Ana é especialista em redes elétricas residenciais, com amplo conhecimento em fiação, quadros de energia e sistemas elétricos de casas. Ela realiza diagnósticos precisos e corrige falhas no sistema elétrico, evitando sobrecarga e curto-circuito. R$140 por hora.",
@@ -91,58 +92,14 @@ const services = [
             description: "Pedro é um pintor de alto nível, especializado em pintura de interiores e exteriores. Ele utiliza técnicas modernas para garantir acabamento perfeito e durabilidade nas superfícies. Seu trabalho é reconhecido pela precisão nas demãos, e ele sempre entrega no prazo. R$30 por m².",
             price: "30.00/m²",
             rating: 4.6,
-            reviews: [ 
-                { 
-                  user: "Lucas Martins", 
-                  date: "2024-11-15", 
-                  comment: "Carlos fez o reparo elétrico na minha casa de forma rápida e eficaz. Ele trocou o disjuntor queimado e agora tudo está funcionando perfeitamente. Recomendo!"
-                },
-                { 
-                  user: "Ana Souza", 
-                  date: "2024-11-14", 
-                  comment: "Excelente profissional, atendeu a todos os meus requisitos e ainda me orientou sobre como evitar problemas futuros com a fiação."
-                },
-                { 
-                  user: "Carlos Alberto", 
-                  date: "2024-11-13", 
-                  comment: "Atendimento muito bom. O serviço foi feito de forma rápida e a cobrança foi justa. Estou satisfeito com o trabalho realizado."
-                },
-                { 
-                  user: "Rafael Costa", 
-                  date: "2024-11-12", 
-                  comment: "Carlos foi muito prestativo e resolveu meu problema de forma eficiente. A fiação da minha casa estava com alguns problemas e ele os solucionou com agilidade."
-                }
-              ]
-              
+            reviews: ["Excelente acabamento.", "Cumpriu os prazos."]
           },
           {
             name: "Luiza",
             description: "Luiza é uma artista da pintura, com foco em técnicas decorativas como texturas, efeitos 3D e pintura mural. Com um portfólio de projetos para casas e empresas, ela transforma qualquer ambiente com criatividade e estilo. R$35 por m².",
             price: "35.00/m²",
             rating: 4.9,
-            reviews: [ 
-                { 
-                  user: "Patrícia Lima", 
-                  date: "2024-11-15", 
-                  comment: "A Ana é incrível! Ela entende muito de sistemas elétricos residenciais. Fez a instalação elétrica da minha casa e tudo ficou perfeito. Super recomendo!"
-                },
-                { 
-                  user: "Gabriel Pereira", 
-                  date: "2024-11-14", 
-                  comment: "Trabalho de excelência! Ana foi muito detalhista e me explicou cada passo da instalação elétrica. Além disso, fez tudo no prazo combinado."
-                },
-                { 
-                  user: "Júlia Reis", 
-                  date: "2024-11-13", 
-                  comment: "Muito competente! A Ana instalou a rede elétrica da minha casa nova e ficou tudo impecável. Preço justo e ótimo atendimento."
-                },
-                { 
-                  user: "Marcelo Oliveira", 
-                  date: "2024-11-12", 
-                  comment: "A Ana foi muito profissional e realizou a instalação elétrica com muito cuidado e zelo. O serviço foi impecável!"
-                }
-              ]
-              
+            reviews: ["Muito criativa!", "Minha casa ficou incrível."]
           }
         ]
       },
