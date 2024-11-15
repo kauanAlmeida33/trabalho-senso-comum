@@ -10,11 +10,28 @@ const services = [
             price: "150.00", 
             rating: 4.5, 
             reviews: [
-                "Carlos foi um verdadeiro salvador! Ele chegou rapidamente, identificou o problema de fiação e fez o reparo de maneira eficiente. Eu realmente apreciei a forma como ele explicou o que estava acontecendo e a solução que ele ofereceu. Recomendo sem dúvida!",
-                "Atendimento excelente! Carlos foi muito educado e prestativo. Ele teve muito cuidado para não danificar os outros componentes do sistema elétrico e fez o serviço sem nenhum transtorno.",
-                "Tive um problema sério com a fiação da casa e Carlos foi rápido para consertar. Ele não apenas solucionou o problema, mas também me deu dicas de como prevenir futuros defeitos. Serviço de 5 estrelas!",
-                "Carlos resolveu o meu problema elétrico com muita rapidez e competência. O custo foi justo e o trabalho foi bem feito. Com certeza voltarei a contratá-lo se precisar de novos reparos."
+                { 
+                  user: "Carlos Silva", 
+                  date: "2024-11-05", 
+                  comment: "João foi muito eficiente ao instalar o ar-condicionado em minha casa. Ele fez tudo com muito cuidado e em tempo hábil. O equipamento ficou funcionando perfeitamente. Recomendo muito!"
+                },
+                { 
+                  user: "Ana Beatriz", 
+                  date: "2024-11-08", 
+                  comment: "Ótimo profissional! João fez a instalação de forma muito rápida e sem deixar sujeira. Explicou todas as etapas do processo e deixou o ambiente organizado após a instalação."
+                },
+                { 
+                  user: "Marcos Oliveira", 
+                  date: "2024-11-10", 
+                  comment: "Fiquei muito satisfeito com o trabalho de João. Ele é muito experiente e me deixou tranquilo durante todo o processo. O ar-condicionado está funcionando perfeitamente, e ele ainda fez uma manutenção preventiva."
+                },
+                { 
+                  user: "Luana Santos", 
+                  date: "2024-11-12", 
+                  comment: "João é um excelente profissional. Foi pontual e fez o serviço com muita atenção aos detalhes. Fiquei muito feliz com o atendimento e o resultado final."
+                }
               ]
+              
           },
           { 
             name: "Maria", 
@@ -22,12 +39,27 @@ const services = [
             price: "170.00", 
             rating: 4.8, 
             reviews: [
-                "Muito satisfeita com o trabalho da Maria! Ela foi super atenciosa, explicou todos os passos do serviço e deixou tudo organizado ao final. Super recomendo para quem precisa de serviços elétricos de qualidade.",
-                "Maria fez a instalação do meu ar-condicionado inverter e o trabalho foi muito bem executado. Ela é muito detalhista e se preocupa com o bom funcionamento do sistema, além de ser super simpática.",
-                "Maria tem um conhecimento excelente sobre os sistemas inverter. Ela me explicou tudo sobre o modelo e fez a instalação sem nenhum problema. Agora o ambiente está bem mais fresco e econômico. Muito bom!",
-                "Além de ser muito competente, Maria é muito prestativa. Ela me orientou sobre como manter o sistema funcionando bem e sempre se mostrou disponível para esclarecer dúvidas. Fiquei muito feliz com o resultado."
-              ]
-              
+                { 
+                  user: "José Almeida", 
+                  date: "2024-11-02", 
+                  comment: "Maria fez um excelente trabalho na instalação do meu ar-condicionado inverter. Ela foi muito atenciosa, respondeu a todas as minhas dúvidas e o serviço ficou perfeito. A qualidade do trabalho superou minhas expectativas!"
+                },
+                { 
+                  user: "Fernanda Costa", 
+                  date: "2024-11-06", 
+                  comment: "Maria tem uma habilidade incrível com os sistemas inverter. Ela fez a instalação rapidamente e de forma impecável. A economia de energia no meu aparelho já está visível. Estou muito satisfeita!"
+                },
+                { 
+                  user: "Ricardo Pereira", 
+                  date: "2024-11-09", 
+                  comment: "Excelente profissional! Maria foi rápida, eficiente e fez o trabalho com muita qualidade. Ela explicou cada parte do processo e me deixou muito seguro sobre o uso do novo sistema."
+                },
+                { 
+                  user: "Patricia Mendes", 
+                  date: "2024-11-11", 
+                  comment: "Maria fez um ótimo trabalho em minha casa. Ela é super profissional e tem conhecimento de todos os detalhes do sistema inverter. A instalação foi muito bem feita, sem nenhum contratempo."
+                }
+              ]              
           }
         ]
       },      
