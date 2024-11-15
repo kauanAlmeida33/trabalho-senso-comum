@@ -392,14 +392,58 @@ const services = [
             description: "Rogério é especialista na instalação de portas de madeira e alumínio. Ele tem experiência em projetos personalizados e entrega um trabalho com excelente acabamento. Ele também realiza ajustes e consertos em portas antigas. R$180 por unidade.",
             price: "180.00",
             rating: 4.2,
-            reviews: ["Fez um bom trabalho.", "Sem atrasos."]
+            reviews: [ 
+                { 
+                  user: "Carlos Alberto", 
+                  date: "2024-11-15", 
+                  comment: "Rogério fez um excelente trabalho na instalação das portas em minha casa. Ele foi pontual, profissional e o acabamento ficou impecável. Muito satisfeito!"
+                },
+                { 
+                  user: "Lucas Martins", 
+                  date: "2024-11-13", 
+                  comment: "O trabalho de Rogério foi perfeito! Ele instalou as portas com muito cuidado e atenção aos detalhes. Ficou tudo no lugar e sem nenhum problema."
+                },
+                { 
+                  user: "Mariana Souza", 
+                  date: "2024-11-12", 
+                  comment: "Fiquei muito feliz com o serviço do Rogério. Ele é muito atencioso, rápido e deixou tudo perfeito. As portas ficaram como eu queria. Recomendo!"
+                },
+                { 
+                  user: "Fernanda Oliveira", 
+                  date: "2024-11-10", 
+                  comment: "Rogério é muito profissional e detalhista. Ele fez a instalação das portas de maneira muito rápida e eficiente. O serviço superou minhas expectativas."
+                }
+              ]
+              
           },
           {
             name: "Luciana",
             description: "Luciana é especialista em portas de correr, com ênfase em otimização de espaços e estética moderna. Ela pode realizar a instalação de portas de diversos materiais, desde madeira até vidro temperado. R$220 por unidade.",
             price: "220.00",
             rating: 4.7,
-            reviews: ["Muito bem feito.", "Adorei o serviço!"]
+            reviews: [ 
+                { 
+                  user: "Amanda Lima", 
+                  date: "2024-11-15", 
+                  comment: "Luciana é excelente! Instalou as portas de correr em minha casa com muita precisão. O trabalho foi rápido, sem bagunça, e o acabamento ficou perfeito!"
+                },
+                { 
+                  user: "Ricardo Ferreira", 
+                  date: "2024-11-14", 
+                  comment: "Luciana fez um trabalho incrível. As portas de correr que ela instalou têm um acabamento impecável e funcionam super bem. Adorei o resultado!"
+                },
+                { 
+                  user: "Sílvia Costa", 
+                  date: "2024-11-13", 
+                  comment: "Luciana fez a instalação das portas com muito cuidado e dedicação. O trabalho foi rápido e sem problemas. Fiquei muito satisfeita com o resultado."
+                },
+                { 
+                  user: "Jorge Nunes", 
+                  date: "2024-11-12", 
+                  comment: "Fiquei impressionado com a habilidade da Luciana. Ela fez um trabalho excelente nas portas de correr, com atenção a cada detalhe e sem nenhum erro. Recomendo muito!"
+                }
+              ]
+              
           }
         ]
       },
