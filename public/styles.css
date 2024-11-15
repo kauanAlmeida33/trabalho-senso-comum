@@ -91,4 +91,74 @@ body {
     width: 300px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   }
-  
+  /* Coloque o código de bordas arredondadas aqui */
+
+/* Aplica bordas arredondadas em todos os elementos que tiverem bordas */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border-radius: 10px; /* Arredonda todas as bordas */
+}
+
+/* Aplica bordas arredondadas específicas em alguns elementos */
+input,
+textarea,
+select,
+button,
+a,
+div,
+header,
+footer,
+main {
+  border-radius: 10px; /* Arredonda bordas de inputs, botões, etc. */
+}
+
+/* Ajustes para garantir que os elementos interativos como botões e campos de input fiquem mais suaves */
+input,
+textarea,
+button {
+  border: 2px solid #ccc; /* Borda suave para inputs e botões */
+  padding: 0.5rem 1rem;
+}
+
+/* Botões específicos */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Arredondando caixas de mensagens no chat box */
+#chat-box {
+  border-radius: 15px;
+  padding: 1rem;
+  width: 350px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes no header e footer */
+header, footer {
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+/* Outros elementos de containers */
+#services-list div,
+#professionals-list div {
+  border-radius: 10px; /* Borda arredondada para os containers de serviços e profissionais */
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#services-list div:hover,
+#professionals-list div:hover {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
