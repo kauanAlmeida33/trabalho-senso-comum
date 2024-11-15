@@ -42,9 +42,20 @@ body {
     margin-top: 2rem;
   }
   
-  #services-list div {
+  #services-list div, #professionals-list div {
     border: 1px solid #ddd;
     padding: 1rem;
     margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #search-bar {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
   }
   
