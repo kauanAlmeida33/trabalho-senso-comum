@@ -328,14 +328,58 @@ const services = [
             description: "Claudio é um jardineiro experiente, que cuida da manutenção de jardins com atenção aos detalhes e paixão pela natureza. Ele cuida de plantas, realiza podas e pode até mesmo realizar replantios para melhorar o aspecto do seu jardim. R$200 por visita.",
             price: "200.00",
             rating: 4.4,
-            reviews: ["Deixou meu jardim perfeito.", "Atencioso e detalhista."]
+            reviews: [ 
+                { 
+                  user: "Ana Beatriz", 
+                  date: "2024-11-15", 
+                  comment: "Cláudio fez um trabalho incrível no meu jardim. Ele cuidou de todos os detalhes e trouxe uma nova vida para o espaço. Muito atencioso e detalhista!"
+                },
+                { 
+                  user: "Paulo Fernandes", 
+                  date: "2024-11-14", 
+                  comment: "Fiquei muito satisfeito com o trabalho do Cláudio. Ele fez a manutenção do meu jardim com muito cuidado e profissionalismo. O jardim nunca esteve tão bonito!"
+                },
+                { 
+                  user: "Juliana Costa", 
+                  date: "2024-11-13", 
+                  comment: "Cláudio é um profissional maravilhoso. Ele foi super detalhista no trabalho e fez meu jardim parecer novo. Muito satisfeito com o resultado!"
+                },
+                { 
+                  user: "Ricardo Santos", 
+                  date: "2024-11-12", 
+                  comment: "O trabalho de Cláudio foi excelente! Ele fez uma poda impecável e deixou o jardim ainda mais bonito. Muito profissional e atento aos detalhes."
+                }
+              ]
+              
           },
           {
             name: "Camila",
             description: "Camila é especialista em paisagismo e design de jardins. Com um olhar artístico, ela cria jardins personalizados para diversos tipos de espaço, seja residencial ou comercial, proporcionando um ambiente relaxante e harmônico. R$300 por projeto.",
             price: "300.00",
             rating: 4.8,
-            reviews: ["Muito criativa!", "Meu jardim ficou maravilhoso."]
+            reviews: [ 
+                { 
+                  user: "Luciana Pereira", 
+                  date: "2024-11-15", 
+                  comment: "Camila é uma paisagista incrível. Ela transformou completamente meu jardim, criando um espaço único e encantador. O projeto foi feito com muito carinho e criatividade."
+                },
+                { 
+                  user: "Eduardo Silva", 
+                  date: "2024-11-14", 
+                  comment: "Fiquei impressionado com o trabalho da Camila. Ela é super criativa e atendeu todas as minhas expectativas. O jardim ficou perfeito e com um visual maravilhoso!"
+                },
+                { 
+                  user: "Mariana Rocha", 
+                  date: "2024-11-13", 
+                  comment: "Camila fez um trabalho maravilhoso no meu jardim. Ela foi muito criativa e conseguiu transformar o ambiente em um espaço de beleza e tranquilidade. Super recomendo!"
+                },
+                { 
+                  user: "Felipe Costa", 
+                  date: "2024-11-12", 
+                  comment: "Camila fez um projeto de paisagismo para o meu jardim e eu não poderia estar mais satisfeito. Ela trouxe ideias fantásticas e o resultado foi surpreendente!"
+                }
+              ]
+              
           }
         ]
       },
