@@ -1,13 +1,25 @@
 // Dados mockados de serviços e profissionais
 const services = [
     { 
-      id: 1, 
-      name: "Instalação de Ar-Condicionado", 
-      professionals: [
-        { name: "João", description: "Instalação e manutenção de aparelhos split. R$150 por unidade.", price: "150.00", rating: 4.5, reviews: ["Ótimo serviço!", "Muito eficiente."] },
-        { name: "Maria", description: "Especialista em modelos inverter. R$170 por unidade.", price: "170.00", rating: 4.8, reviews: ["Recomendo demais!", "Rápido e organizado."] }
-      ]
-    },
+        id: 1, 
+        name: "Instalação de Ar-Condicionado", 
+        professionals: [
+          { 
+            name: "João", 
+            description: "João é especialista em instalação e manutenção de aparelhos de ar-condicionado tipo split. Com mais de 5 anos de experiência, ele realiza o processo de instalação com precisão e segurança, garantindo a eficiência do sistema. Além disso, oferece manutenção preventiva e corretiva, assegurando o funcionamento adequado do equipamento. R$150 por unidade.", 
+            price: "150.00", 
+            rating: 4.5, 
+            reviews: ["Ótimo serviço!", "Muito eficiente."]
+          },
+          { 
+            name: "Maria", 
+            description: "Maria é especialista em sistemas de ar-condicionado inverter, que são mais eficientes e econômicos. Ela possui certificação em instalação e manutenção de modelos inverter, sendo capaz de otimizar a performance do seu sistema de ar-condicionado. Sua experiência é baseada em mais de 7 anos de trabalho com modelos modernos e inovadores. R$170 por unidade.", 
+            price: "170.00", 
+            rating: 4.8, 
+            reviews: ["Recomendo demais!", "Rápido e organizado."]
+          }
+        ]
+      },      
     { 
       id: 2, 
       name: "Reparo Elétrico", 
