@@ -264,14 +264,58 @@ const services = [
             description: "José é especialista em limpeza pós-obra, utilizando equipamentos profissionais e técnicas adequadas para remover resíduos de construção e deixar os ambientes prontos para uso. Ele realiza o serviço de forma rápida e com eficiência. R$350 por serviço.",
             price: "350.00",
             rating: 4.5,
-            reviews: ["Equipe organizada.", "Muito satisfeita!"]
+            reviews: [ 
+                { 
+                  user: "Mariana Souza", 
+                  date: "2024-11-15", 
+                  comment: "José e sua equipe fizeram um trabalho incrível na limpeza pós-obra da minha casa. Eles foram muito organizados, rápidos e deixaram o ambiente impecável. Super recomendo!"
+                },
+                { 
+                  user: "Rita Oliveira", 
+                  date: "2024-11-14", 
+                  comment: "A limpeza pós-obra realizada por José foi excelente! Eles tiraram toda a sujeira e o pó com equipamentos profissionais. Minha casa ficou perfeita depois."
+                },
+                { 
+                  user: "Felipe Rocha", 
+                  date: "2024-11-13", 
+                  comment: "José e sua equipe foram incríveis. Eles limparam tudo com muito cuidado e atenção aos detalhes. A casa estava em um estado péssimo e agora está impecável!"
+                },
+                { 
+                  user: "Patrícia Silva", 
+                  date: "2024-11-12", 
+                  comment: "O trabalho do José foi excepcional! Ele e sua equipe deixaram minha casa completamente limpa e sem vestígios da obra. Serviço muito bem feito!"
+                }
+              ]
+              
           },
           {
             name: "Rafaela",
             description: "Rafaela é especialista em limpeza de alta qualidade, com foco na limpeza de vidros, pisos e outros materiais delicados. Ela utiliza ferramentas adequadas para garantir que sua casa ou escritório fique perfeito após a obra. R$370 por serviço.",
             price: "370.00",
             rating: 4.9,
-            reviews: ["Minha casa ficou impecável.", "Profissional excelente!"]
+            reviews: [ 
+                { 
+                  user: "Gustavo Martins", 
+                  date: "2024-11-15", 
+                  comment: "Rafaela foi super atenciosa e eficiente. A limpeza que ela fez em minha casa pós-obra foi impecável, especialmente a parte dos vidros e pisos. Trabalho excelente!"
+                },
+                { 
+                  user: "Cláudia Pereira", 
+                  date: "2024-11-14", 
+                  comment: "Rafaela é uma profissional muito dedicada. Ela fez a limpeza pós-obra da minha casa com muito cuidado e atenção. A casa ficou totalmente limpa e sem nenhum resíduo de obra."
+                },
+                { 
+                  user: "João Carlos", 
+                  date: "2024-11-13", 
+                  comment: "Excelente trabalho da Rafaela! Ela é super cuidadosa com a limpeza dos detalhes, especialmente os pisos e janelas. Minha casa ficou impecável, sem nenhum sinal de obra."
+                },
+                { 
+                  user: "Lucas Martins", 
+                  date: "2024-11-12", 
+                  comment: "A Rafaela fez um trabalho impecável. Ela e sua equipe deixaram minha casa limpa e pronta para morar. Eu estava impressionado com a qualidade da limpeza."
+                }
+              ]
+              
           }
         ]
       },
