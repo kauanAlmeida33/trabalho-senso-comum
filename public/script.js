@@ -136,14 +136,58 @@ const services = [
             description: "Pedro é um pintor de alto nível, especializado em pintura de interiores e exteriores. Ele utiliza técnicas modernas para garantir acabamento perfeito e durabilidade nas superfícies. Seu trabalho é reconhecido pela precisão nas demãos, e ele sempre entrega no prazo. R$30 por m².",
             price: "30.00/m²",
             rating: 4.6,
-            reviews: ["Excelente acabamento.", "Cumpriu os prazos."]
+            reviews: [ 
+                { 
+                  user: "João Santos", 
+                  date: "2024-11-15", 
+                  comment: "Pedro fez um trabalho excelente na pintura das paredes da minha casa. Ele teve muito cuidado com os detalhes e o acabamento ficou perfeito. Recomendo demais!"
+                },
+                { 
+                  user: "Mariana Oliveira", 
+                  date: "2024-11-14", 
+                  comment: "Fiquei impressionada com a rapidez e precisão do Pedro. Ele pintou todos os ambientes de forma impecável, sem sujeira e sem atrasos. Trabalho de qualidade!"
+                },
+                { 
+                  user: "Lucas Ferreira", 
+                  date: "2024-11-13", 
+                  comment: "Pedro é um ótimo pintor. Ele fez a pintura da minha casa com um acabamento que superou minhas expectativas. Tudo ficou muito bem feito e sem falhas."
+                },
+                { 
+                  user: "Sandra Costa", 
+                  date: "2024-11-12", 
+                  comment: "O serviço de pintura foi perfeito! Pedro tem muito talento e fez um trabalho excelente. As cores ficaram lindas e ele foi super cuidadoso."
+                }
+              ]
+              
           },
           {
             name: "Luiza",
             description: "Luiza é uma artista da pintura, com foco em técnicas decorativas como texturas, efeitos 3D e pintura mural. Com um portfólio de projetos para casas e empresas, ela transforma qualquer ambiente com criatividade e estilo. R$35 por m².",
             price: "35.00/m²",
             rating: 4.9,
-            reviews: ["Muito criativa!", "Minha casa ficou incrível."]
+            reviews: [ 
+                { 
+                  user: "Renata Almeida", 
+                  date: "2024-11-15", 
+                  comment: "A Luiza fez um trabalho maravilhoso com as técnicas de pintura decorativa. Minha sala ficou incrível! Ela é muito criativa e atenciosa, adorei o resultado!"
+                },
+                { 
+                  user: "Carlos Pereira", 
+                  date: "2024-11-14", 
+                  comment: "Luiza é uma artista da pintura. Fez uma pintura decorativa na minha casa e ficou simplesmente sensacional. Super recomendo o trabalho dela!"
+                },
+                { 
+                  user: "Fernanda Souza", 
+                  date: "2024-11-13", 
+                  comment: "Excelente profissional! Luiza tem um grande talento para pintura decorativa. Ela trouxe novas ideias e fez um trabalho que deixou minha casa com outra cara."
+                },
+                { 
+                  user: "Ricardo Lima", 
+                  date: "2024-11-12", 
+                  comment: "Fiquei impressionado com a qualidade do serviço da Luiza. Ela fez uma pintura incrível e com muito cuidado. Os detalhes ficaram perfeitos."
+                }
+              ]
+              
           }
         ]
       },
