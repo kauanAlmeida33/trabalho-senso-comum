@@ -72,7 +72,29 @@ const services = [
             description: "Carlos é um profissional com vasta experiência em reparos elétricos, incluindo a troca de disjuntores, fiação e instalações elétricas de baixo e médio porte. Com mais de 10 anos de experiência na área, ele garante serviços rápidos e eficientes, com foco na segurança e no respeito aos padrões regulatórios. R$120 por hora.",
             price: "120.00",
             rating: 4.2,
-            reviews: ["Atendimento excelente.", "Resolveu meu problema."]
+            reviews: [ 
+                { 
+                  user: "Lucas Martins", 
+                  date: "2024-11-15", 
+                  comment: "Carlos fez o reparo elétrico na minha casa de forma rápida e eficaz. Ele trocou o disjuntor queimado e agora tudo está funcionando perfeitamente. Recomendo!"
+                },
+                { 
+                  user: "Ana Souza", 
+                  date: "2024-11-14", 
+                  comment: "Excelente profissional, atendeu a todos os meus requisitos e ainda me orientou sobre como evitar problemas futuros com a fiação."
+                },
+                { 
+                  user: "Carlos Alberto", 
+                  date: "2024-11-13", 
+                  comment: "Atendimento muito bom. O serviço foi feito de forma rápida e a cobrança foi justa. Estou satisfeito com o trabalho realizado."
+                },
+                { 
+                  user: "Rafael Costa", 
+                  date: "2024-11-12", 
+                  comment: "Carlos foi muito prestativo e resolveu meu problema de forma eficiente. A fiação da minha casa estava com alguns problemas e ele os solucionou com agilidade."
+                }
+              ]
+              
           },
           {
             name: "Ana",
