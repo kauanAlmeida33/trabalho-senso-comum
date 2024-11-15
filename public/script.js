@@ -260,7 +260,11 @@ const showProfessionals = (service) => {
         <div class="review">Avaliação: ${'⭐'.repeat(Math.floor(professional.rating))}</div>
         <p>Comentários:</p>
         <ul>
-          ${professional.reviews.map(review => `<li>${review}</li>`).join('')}
+          ${professional.reviews.map(review => 
+            `<li>
+              <strong>${review.user}</strong> - ${review.date}<br>
+              <p>${review.comment}</p>
+            </li>`).join('')}
         </ul>
         <button class="hire-button">Contratar</button>
         <button class="message-button">Mensagem</button>
