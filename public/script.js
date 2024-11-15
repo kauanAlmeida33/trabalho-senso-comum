@@ -200,14 +200,58 @@ const services = [
             description: "Marcos é um especialista em reparos hidráulicos, com experiência em consertos de vazamentos, instalações de novos sistemas e manutenção de tubulações. Ele trabalha com eficiência para garantir que a parte hidráulica da sua residência ou empresa funcione sem problemas. R$200 por visita.",
             price: "200.00",
             rating: 4.3,
-            reviews: ["Resolvi tudo rápido!", "Muito educado."]
+            reviews: [ 
+                { 
+                  user: "Carlos Santos", 
+                  date: "2024-11-15", 
+                  comment: "Marcos é extremamente profissional. Ele veio até minha casa rapidamente para resolver um vazamento no banheiro e fez tudo com muita competência. Recomendo!"
+                },
+                { 
+                  user: "Beatriz Oliveira", 
+                  date: "2024-11-14", 
+                  comment: "Fiquei muito satisfeita com o serviço do Marcos. Ele é atencioso, competente e resolveu o problema com rapidez. O conserto foi perfeito e sem complicações."
+                },
+                { 
+                  user: "Rafael Silva", 
+                  date: "2024-11-13", 
+                  comment: "Marcos fez o reparo hidráulico em minha casa e tudo ocorreu perfeitamente. Ele é rápido, eficiente e muito educado. Trabalho de alta qualidade!"
+                },
+                { 
+                  user: "Patricia Rocha", 
+                  date: "2024-11-12", 
+                  comment: "O Marcos foi super atencioso e fez um excelente trabalho. Ele identificou e corrigiu o vazamento rapidamente. Fiquei muito satisfeita com o serviço prestado."
+                }
+              ]
+              
           },
           {
             name: "Fernanda",
             description: "Fernanda é uma experiente profissional em sistemas hidráulicos, com expertise na instalação de novos sistemas de encanamento e redes de água. Ela utiliza materiais de alta qualidade e tem um histórico de trabalhos bem-sucedidos. R$250 por visita.",
             price: "250.00",
             rating: 4.8,
-            reviews: ["Excelente profissional.", "Vale cada centavo."]
+            reviews: [ 
+                { 
+                  user: "Luciana Costa", 
+                  date: "2024-11-15", 
+                  comment: "Fernanda é uma profissional incrível! Ela fez a instalação do meu sistema hidráulico com muita competência e atenção aos detalhes. Estou muito satisfeita!"
+                },
+                { 
+                  user: "Carlos Almeida", 
+                  date: "2024-11-14", 
+                  comment: "Fernanda realizou o trabalho de instalação hidráulica com muito cuidado e expertise. Ela explicou todo o processo para mim e deixou tudo funcionando perfeitamente."
+                },
+                { 
+                  user: "Juliana Pereira", 
+                  date: "2024-11-13", 
+                  comment: "Muito obrigada, Fernanda! Ela fez a instalação hidráulica na minha casa e o serviço foi impecável. Tudo foi feito dentro do prazo e sem nenhum contratempo."
+                },
+                { 
+                  user: "Ricardo Lima", 
+                  date: "2024-11-12", 
+                  comment: "Fernanda é altamente recomendada! Ela realizou a instalação hidráulica de forma muito eficiente e com ótimo acabamento. Serviço bem feito e preço justo."
+                }
+              ]
+              
           }
         ]
       },
