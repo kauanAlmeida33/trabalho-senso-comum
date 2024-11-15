@@ -584,14 +584,58 @@ const services = [
             description: "Eduardo é especialista em manutenção e limpeza de piscinas, oferecendo serviços regulares de tratamento químico, remoção de sujeira e cuidado com os sistemas hidráulicos da piscina. R$200 por mês.",
             price: "200.00",
             rating: 4.7,
-            reviews: ["Minha piscina ficou ótima.", "Super recomendado."]
+            reviews: [ 
+                { 
+                  user: "Carlos Silva", 
+                  date: "2024-11-14", 
+                  comment: "Eduardo fez um excelente trabalho na manutenção da minha piscina. Ele foi muito cuidadoso com os produtos usados e a piscina ficou impecável. Estou muito satisfeito com o serviço e recomendo a todos."
+                },
+                { 
+                  user: "Maria Tavares", 
+                  date: "2024-11-11", 
+                  comment: "O trabalho de Eduardo foi perfeito. Ele fez a manutenção da piscina e o tratamento químico deixou a água cristalina. A piscina nunca esteve tão limpa e bem cuidada. Excelente profissional."
+                },
+                { 
+                  user: "Ricardo Lopes", 
+                  date: "2024-11-08", 
+                  comment: "Eduardo fez a manutenção da minha piscina e eu fiquei muito impressionado com a qualidade do serviço. Ele é bem detalhista, me explicou todo o processo e a piscina ficou maravilhosa. Recomendo!"
+                },
+                { 
+                  user: "Fernanda Oliveira", 
+                  date: "2024-11-05", 
+                  comment: "Fiquei muito feliz com o trabalho do Eduardo. Ele deixou minha piscina impecável, com a água limpíssima. O serviço foi rápido e eficiente. Super recomendo para quem precisa de manutenção de piscinas."
+                }
+              ]
+              
           },
           {
             name: "Flávia",
             description: "Flávia é especialista em limpeza e manutenção de piscinas com equipamentos profissionais, garantindo que a piscina esteja sempre limpa, segura e pronta para uso. R$250 por mês.",
             price: "250.00",
             rating: 4.9,
-            reviews: ["Muito profissional.", "Atenciosa e eficiente!"]
+            reviews: [ 
+                { 
+                  user: "João Pereira", 
+                  date: "2024-11-13", 
+                  comment: "Flávia foi excelente! Ela fez a limpeza da minha piscina com equipamento profissional e a água ficou completamente limpa. Ela é super detalhista e me explicou todo o processo. Serviço perfeito!"
+                },
+                { 
+                  user: "Patrícia Rocha", 
+                  date: "2024-11-10", 
+                  comment: "Flávia fez um trabalho excelente na limpeza da minha piscina. Ela foi muito atenciosa e usou equipamentos de alta qualidade. A piscina ficou impecável e o atendimento foi ótimo. Recomendo muito!"
+                },
+                { 
+                  user: "Tiago Alves", 
+                  date: "2024-11-07", 
+                  comment: "Flávia fez a limpeza da piscina e o trabalho foi maravilhoso. Ela é super profissional, deixou tudo limpo e sem nenhum resíduo. A piscina ficou brilhando. Super satisfeitos!"
+                },
+                { 
+                  user: "Luciana Martins", 
+                  date: "2024-11-04", 
+                  comment: "Flávia fez um trabalho sensacional na limpeza da minha piscina. Ela é muito cuidadosa e usou produtos e equipamentos de excelente qualidade. A água da minha piscina ficou cristalina. Não poderia estar mais satisfeita!"
+                }
+              ]
+              
           }
         ]
       }
