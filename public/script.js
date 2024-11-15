@@ -101,7 +101,29 @@ const services = [
             description: "Ana é especialista em redes elétricas residenciais, com amplo conhecimento em fiação, quadros de energia e sistemas elétricos de casas. Ela realiza diagnósticos precisos e corrige falhas no sistema elétrico, evitando sobrecarga e curto-circuito. R$140 por hora.",
             price: "140.00",
             rating: 4.7,
-            reviews: ["Profissional muito competente.", "Preço justo."]
+            reviews: [ 
+                { 
+                  user: "Patrícia Lima", 
+                  date: "2024-11-15", 
+                  comment: "A Ana é incrível! Ela entende muito de sistemas elétricos residenciais. Fez a instalação elétrica da minha casa e tudo ficou perfeito. Super recomendo!"
+                },
+                { 
+                  user: "Gabriel Pereira", 
+                  date: "2024-11-14", 
+                  comment: "Trabalho de excelência! Ana foi muito detalhista e me explicou cada passo da instalação elétrica. Além disso, fez tudo no prazo combinado."
+                },
+                { 
+                  user: "Júlia Reis", 
+                  date: "2024-11-13", 
+                  comment: "Muito competente! A Ana instalou a rede elétrica da minha casa nova e ficou tudo impecável. Preço justo e ótimo atendimento."
+                },
+                { 
+                  user: "Marcelo Oliveira", 
+                  date: "2024-11-12", 
+                  comment: "A Ana foi muito profissional e realizou a instalação elétrica com muito cuidado e zelo. O serviço foi impecável!"
+                }
+              ]
+              
           }
         ]
       },
