@@ -456,14 +456,58 @@ const services = [
             description: "Paulo é especialista na montagem de móveis planejados. Ele possui experiência em trabalhar com diversas marcas e tipos de móveis, entregando um serviço rápido e de alta qualidade. R$100 por peça.",
             price: "100.00",
             rating: 4.6,
-            reviews: ["Ótimo profissional.", "Montagem rápida."]
+            reviews: [ 
+                { 
+                  user: "Thiago Oliveira", 
+                  date: "2024-11-14", 
+                  comment: "Paulo fez a montagem dos móveis planejados da minha sala. Ele foi super rápido e a montagem ficou perfeita. O serviço foi excelente e recomendo a todos."
+                },
+                { 
+                  user: "Juliana Rocha", 
+                  date: "2024-11-12", 
+                  comment: "Muito bom o trabalho do Paulo. Ele foi muito eficiente, a montagem foi feita com atenção aos detalhes e ficou tudo impecável. Fiquei muito satisfeita."
+                },
+                { 
+                  user: "Roberta Lima", 
+                  date: "2024-11-11", 
+                  comment: "Paulo fez um ótimo trabalho montando meus móveis planejados. Ele foi rápido e cuidadoso, o acabamento ficou perfeito. Super recomendo!"
+                },
+                { 
+                  user: "Pedro Santos", 
+                  date: "2024-11-09", 
+                  comment: "O trabalho de Paulo foi muito bom. Ele fez a montagem dos móveis de forma eficiente e sem nenhum problema. Ficou tudo do jeitinho que eu queria. Excelente profissional!"
+                }
+              ]
+              
           },
           {
             name: "Sabrina",
             description: "Sabrina é especialista na montagem de móveis IKEA, conhecida pela rapidez e precisão em montar móveis dessa marca. Ela tem um ótimo entendimento das instruções e entrega o serviço com excelência. R$120 por peça.",
             price: "120.00",
             rating: 4.8,
-            reviews: ["Montagem impecável.", "Muito simpática!"]
+            reviews: [ 
+                { 
+                  user: "Marcela Costa", 
+                  date: "2024-11-15", 
+                  comment: "Sabrina fez um excelente trabalho montando meus móveis da IKEA. Ela foi muito rápida e o serviço ficou perfeito. Ela é muito atenciosa e caprichosa!"
+                },
+                { 
+                  user: "André Pereira", 
+                  date: "2024-11-14", 
+                  comment: "Sabrina é uma excelente profissional! Ela montou todos os móveis da IKEA com muita eficiência. O trabalho foi muito bem feito e sem erros. Super recomendo!"
+                },
+                { 
+                  user: "Carla Silva", 
+                  date: "2024-11-12", 
+                  comment: "Fiquei muito satisfeita com a montagem dos móveis feita pela Sabrina. Ela foi muito ágil e cuidadosa, deixou tudo muito bem montado e organizado. Trabalho impecável!"
+                },
+                { 
+                  user: "José Martins", 
+                  date: "2024-11-10", 
+                  comment: "Sabrina é incrível! Ela montou os móveis da IKEA de forma muito rápida e o serviço ficou excelente. Ficou tudo no lugar certo e sem nenhum erro. Muito satisfeito!"
+                }
+              ]
+              
           }
         ]
       },
@@ -476,14 +520,58 @@ const services = [
             description: "Leandro é um especialista em telhados cerâmicos. Ele realiza a substituição de telhas e manutenção de telhados de maneira eficiente, garantindo que sua residência fique protegida das intempéries. R$500 por serviço.",
             price: "500.00",
             rating: 4.3,
-            reviews: ["Muito atencioso.", "Resolveu rápido."]
+            reviews: [ 
+                { 
+                  user: "Marcelo Santos", 
+                  date: "2024-11-13", 
+                  comment: "Leandro fez a substituição das telhas do meu telhado cerâmico. O serviço foi excelente! Ele foi muito atencioso e conseguiu resolver rapidamente o problema com a telha quebrada. Recomendo."
+                },
+                { 
+                  user: "Renata Almeida", 
+                  date: "2024-11-10", 
+                  comment: "Fiquei muito satisfeita com o trabalho do Leandro. Ele substituiu as telhas cerâmicas de maneira eficiente e sem complicação. O trabalho foi rápido e de qualidade. Recomendo."
+                },
+                { 
+                  user: "Carlos Ribeiro", 
+                  date: "2024-11-08", 
+                  comment: "Leandro é muito profissional. Substituiu as telhas de forma rápida e fez o trabalho com muita atenção aos detalhes. Estou muito satisfeito com o serviço prestado."
+                },
+                { 
+                  user: "Elaine Souza", 
+                  date: "2024-11-06", 
+                  comment: "Leandro fez o serviço de substituição das telhas cerâmicas do meu telhado e o trabalho ficou excelente. Ele foi muito cuidadoso e resolveu o problema sem complicações. Agradeço pelo ótimo trabalho."
+                }
+              ]
+              
           },
           {
             name: "Adriana",
             description: "Adriana é especialista na instalação de telhados metálicos, uma escolha popular por sua durabilidade e resistência. Ela realiza o trabalho com atenção ao detalhe e compromisso com a qualidade. R$600 por serviço.",
             price: "600.00",
             rating: 4.8,
-            reviews: ["Excelente trabalho.", "Vale o preço."]
+            reviews: [ 
+                { 
+                  user: "Eduardo Martins", 
+                  date: "2024-11-12", 
+                  comment: "Adriana fez a instalação das telhas metálicas em minha casa e o trabalho ficou impecável. Ela foi muito profissional e atenciosa. As telhas foram instaladas com perfeição e com muito cuidado. Excelente serviço!"
+                },
+                { 
+                  user: "Beatriz Costa", 
+                  date: "2024-11-09", 
+                  comment: "O serviço de Adriana foi excelente. Ela instalou as telhas metálicas de forma muito eficiente e sem atrasos. O trabalho foi bem feito e a minha casa está agora mais protegida. Recomendo a todos."
+                },
+                { 
+                  user: "Ricardo Souza", 
+                  date: "2024-11-07", 
+                  comment: "Adriana fez um ótimo trabalho na instalação das telhas metálicas. Ela foi muito profissional e fez tudo de forma organizada. Estou muito feliz com o resultado!"
+                },
+                { 
+                  user: "Juliana Pereira", 
+                  date: "2024-11-05", 
+                  comment: "Adriana fez um trabalho de instalação de telhas metálicas no meu telhado e tudo ficou perfeito. Ela foi atenciosa, explicou o processo e concluiu tudo com muita competência. Serviço de primeira!"
+                }
+              ]
+              
           }
         ]
       },
