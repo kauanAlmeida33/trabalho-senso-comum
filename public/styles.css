@@ -7,7 +7,6 @@ body {
     color: #333;
   }
   
-  /* Estilo do Header */
   header {
     background-color: #007bff;
     color: white;
@@ -36,53 +35,12 @@ body {
     text-decoration: none;
   }
   
-  /* Estilo do Main */
   main {
     padding: 2rem;
     border-radius: 15px;
     background: #fff;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     margin: 2rem;
-  }
-  
-  /* Estilo das Divisões */
-  #services-list div, #professionals-list div {
-    border: 1px solid #ddd;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    border-radius: 15px;
-    background-color: #fff;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-  }
-  
-  #services-list div:hover, #professionals-list div:hover {
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-  }
-  
-  /* Barra de pesquisa */
-  #search-bar {
-    margin-bottom: 1rem;
-    padding: 0.8rem;
-    width: 100%;
-    border: 1px solid #ddd;
-    border-radius: 15px;
-  }
-  
-  /* Botões */
-  button {
-    padding: 0.8rem 1.5rem;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
   }
   
   /* Chat Box */
@@ -137,9 +95,4 @@ body {
     border-radius: 15px;
     cursor: pointer;
   }
-  
-  #quick-questions button:hover {
-    background-color: #ddd;
-  }
-  
   
