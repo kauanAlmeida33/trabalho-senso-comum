@@ -1,17 +1,14 @@
-/* Geral */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
     color: #333;
   }
   
   header {
     background-color: #007bff;
     color: white;
-    padding: 1.5rem;
-    border-radius: 0 0 15px 15px;
+    padding: 1rem;
   }
   
   header h1 {
@@ -23,7 +20,6 @@ body {
     padding: 0;
     display: flex;
     gap: 1rem;
-    justify-content: center;
   }
   
   header nav ul li {
@@ -37,62 +33,62 @@ body {
   
   main {
     padding: 2rem;
-    border-radius: 15px;
-    background: #fff;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-    margin: 2rem;
   }
   
-  /* Chat Box */
+  footer {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  #services-list div, #professionals-list div {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #search-bar {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  
+  .review {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .review span {
+    font-size: 1rem;
+    color: gold;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
   #chat-box {
     position: fixed;
-    bottom: 1rem;
-    right: 1rem;
+    bottom: 0;
+    right: 0;
     background: white;
     border: 1px solid #ccc;
-    padding: 1.5rem;
-    width: 400px;
-    height: 400px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
-    resize: both;
-    overflow: auto;
-  }
-  
-  #chat-box h3 {
-    margin: 0;
-    text-align: center;
-  }
-  
-  #chat-messages {
-    height: 60%;
-    overflow-y: auto;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-color: #f1f1f1;
-  }
-  
-  #chat-input {
-    width: calc(100% - 3rem);
-    padding: 0.5rem;
-    border-radius: 15px;
-    border: 1px solid #ddd;
-  }
-  
-  #quick-questions {
-    display: flex;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  #quick-questions button {
-    padding: 0.5rem;
-    background: #f1f1f1;
-    color: #007bff;
-    border: 1px solid #ddd;
-    border-radius: 15px;
-    cursor: pointer;
+    padding: 1rem;
+    width: 300px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   }
   

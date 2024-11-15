@@ -1,42 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Serviços Online</title>
+  <title>HandyGo - Serviços Simplificados</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Serviços Online</h1>
+    <h1>HandyGo</h1>
     <nav>
       <ul>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="#">Profissionais</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#about">Sobre Nós</a></li>
+        <li><a href="#contact">Contato</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <div id="services">
-      <input type="text" id="search-bar" placeholder="Pesquisar serviços...">
+    <section id="services">
+      <h2>Serviços Disponíveis</h2>
+      <input type="text" id="search-bar" placeholder="Procurar por um serviço..." />
       <div id="services-list"></div>
-    </div>
+    </section>
 
-    <div id="professionals" class="hidden">
-      <button id="back-to-services">Voltar aos Serviços</button>
+    <section id="professionals" class="hidden">
+      <h2>Profissionais Disponíveis</h2>
       <div id="professionals-list"></div>
-    </div>
+      <button id="back-to-services">Voltar para Serviços</button>
+    </section>
 
     <div id="chat-box" class="hidden">
-      <h3>Chat com Profissional</h3>
+      <h3>Chat com o Profissional</h3>
       <div id="chat-messages"></div>
-      <div id="quick-questions"></div>
-      <textarea id="chat-input" placeholder="Escreva sua mensagem..."></textarea>
+      <input type="text" id="chat-input" placeholder="Escreva sua mensagem..." />
       <button id="send-message">Enviar</button>
-      <button id="close-chat">Fechar</button>
+      <button id="close-chat">Fechar Chat</button>
     </div>
+
+    <section id="about">
+      <h2>Sobre Nós</h2>
+      <p>HandyGo conecta profissionais qualificados a clientes que precisam de manutenção e pequenos reparos.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contato</h2>
+      <form id="contact-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
   </main>
+
+  <footer>
+    <p>&copy; 2024 HandyGo. Todos os direitos reservados.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
