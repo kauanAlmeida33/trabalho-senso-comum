@@ -201,4 +201,111 @@ sendMessageButton.addEventListener("click", sendMessage);
 chatInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") sendMessage();
 });
+// Perguntas frequentes simuladas para cada profissional
+const quickQuestions = {
+    "Instalação de Ar-Condicionado": [
+      "Qual a garantia do serviço?",
+      "Vocês fornecem o suporte para instalação?",
+      "Qual o prazo para conclusão?"
+    ],
+    "Reparo Elétrico": [
+      "Vocês trocam disjuntores?",
+      "É possível instalar um chuveiro elétrico?",
+      "Qual a experiência dos profissionais?"
+    ],
+    "Pintura de Parede": [
+      "Vocês fornecem tinta?",
+      "Quanto tempo demora para pintar 50m²?",
+      "Vocês fazem pintura decorativa?"
+    ],
+  };
+  
+  // Função para exibir perguntas frequentes no chat
+  const renderQuickQuestions = (questions) => {
+    const quickQuestionsContainer = document.createElement("div");
+    quickQuestionsContainer.id = "quick-questions";
+  
+    questions.forEach((question) => {
+      const questionButton = document.createElement("button");
+      questionButton.textContent = question;
+      questionButton.addEventListener("click", () => {
+        chatInput.value = question;
+        sendMessage();
+      });
+      quickQuestionsContainer.appendChild(questionButton);
+    });
+  
+    chatBox.insertBefore(quickQuestionsContainer, chatMessages);
+  };
+  
+  // Drag-and-Drop para o Chat Box
+  chatBox.addEventListener("mousedown", (e) => {
+    if (!e.target.closest("#chat-box h3")) return;
+  
+    let offsetX = e.offsetX;
+    let offsetY = e.offsetY;
+  
+    const onMouseMove = (event) => {
+      chatBox.style.left = `${event.clientX - offsetX}px`;
+      chatBox.style.top = `${event.clientY - offsetY}px`;
+    };
+  
+    document.addEventListener("mousemove", onMouseMove);
+  
+    document.addEventListener("mouseup", () => {
+      document.removeEventListener("mousemove", onMouseMove);
+    }, { once: true });
+  });
+  professionals: [
+    {
+      name: "João",
+      description: "Especialista com mais de 10 anos de experiência em instalação de ar-condicionado split e inverter.",
+      price: "150.00",
+      rating: 4.5,
+      reviews: [
+        "Ótimo serviço! Resolveu rápido e deixou tudo limpo.",
+        "Muito eficiente e educado. Tirou todas as minhas dúvidas.",
+        "Recomendo para todos! Instalou dois aparelhos em apenas 2 horas."
+      ]
+    }
+  ];
+  const professionals = [
+    {
+      name: "João da Silva",
+      description: `
+        Técnico certificado em instalação de ar-condicionado com mais de 10 anos de experiência. 
+        Especializado em aparelhos split e inverter. Atende residências e empresas, garantindo 
+        um serviço rápido e eficiente. 
+        **Cobra R$150,00 por aparelho instalado.**
+      `,
+      price: "150.00",
+      rating: 4.8,
+      reviews: [
+        "Ótimo serviço! Resolveu rápido e deixou tudo limpo.",
+        "Muito eficiente e educado. Tirou todas as minhas dúvidas sobre o ar-condicionado.",
+        "Recomendo para todos! Instalou dois aparelhos em apenas 2 horas.",
+        "Serviço excelente. Voltaria a contratar com certeza.",
+        "Foi pontual e muito caprichoso. Obrigado, João!"
+      ]
+    },
+    {
+      name: "Maria Souza",
+      description: `
+        Pintora profissional com 8 anos de experiência em pinturas internas e externas. 
+        Realiza pintura decorativa, grafiato e serviços personalizados. Trabalha com tinta de alta qualidade 
+        e oferece orçamento gratuito. 
+        **Cobra R$20,00 por metro quadrado.**
+      `,
+      price: "20.00",
+      rating: 4.6,
+      reviews: [
+        "Pintura impecável, minha casa ficou como nova!",
+        "A Maria foi muito atenciosa e deu dicas excelentes de cores.",
+        "O serviço foi rápido e muito bem feito, sem sujeira.",
+        "Recomendo demais! Melhor pintora da região.",
+        "Minha parede decorativa ficou perfeita. Obrigado, Maria!"
+      ]
+    }
+    // Adicione mais profissionais com descrição similar
+  ];
     
